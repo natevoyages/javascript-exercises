@@ -7,9 +7,9 @@ const removeFromArray = function(array, ...removedMore) {
       if (removedMore[j] === array [i]){
         array[i] = undefined;
       }
+    }
     if (array[i] !== undefined){
         arrayResult.push(array[i]);
-      }
     }
   }
   
@@ -18,3 +18,4 @@ const removeFromArray = function(array, ...removedMore) {
 
 // Do not edit below this line
 module.exports = removeFromArray;
+
